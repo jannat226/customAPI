@@ -1,0 +1,29 @@
+{
+  "name": "customapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jannat226/customAPI#readme",
+  "bugs": {
+    "url": "https://github.com/jannat226/customAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jannat226/customAPI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
